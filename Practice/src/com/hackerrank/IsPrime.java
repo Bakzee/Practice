@@ -11,6 +11,7 @@ public class IsPrime {
 		assert val1.toString().equals("false");
 		Boolean val2 = checkIsPrime(13);
 //		assert val2.toString().equals("false");
+		assert val2.toString().equals("true");
 	}
 
 }
