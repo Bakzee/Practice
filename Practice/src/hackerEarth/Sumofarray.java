@@ -31,10 +31,10 @@ class Sumofarray {
         }
         System.out.println(arrayProduct(a));
     }
-    public static int arrayProduct(int[] a){
-        int res=a[0];
+    public static long arrayProduct(int[] a){
+        long res=a[0];
         for(int i=1;i<a.length;i++)
-            res=(int) ((res*a[i])%(Math.pow(10,9)+7));
+            res=(long)((res*a[i])%(Math.pow(10,9)+7));
         return res;
     }
 }
