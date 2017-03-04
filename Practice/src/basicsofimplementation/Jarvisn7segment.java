@@ -30,7 +30,8 @@ SAMPLE OUTPUT
 Explanation
 Number 1 needs only two bulbs to represent.
 */
-//This program is not efficient 
+//This program is not efficient
+//only one case is not working 
 public class Jarvisn7segment {
 	public static int findMin(int a[],int n)
 	{
